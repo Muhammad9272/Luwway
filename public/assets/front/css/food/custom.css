@@ -1,0 +1,129 @@
+.card-lg-pading{
+	/*padding: 15px 10 !important;*/
+    padding-bottom: 15px;
+}
+
+.footer-title{
+     font-size: 15px;
+    font-weight: 500; 
+}
+.pading{
+	text-align: -webkit-right;
+    padding-top: 11px;
+}
+.img-card-sm{
+	padding-right: 8px;
+        width: 83px;
+    height: 46px;
+}
+.fa-heart{
+font-size:20px !important;
+color:green !important;
+}
+.border-lfet{
+	border-left: 1px solid #ccc;
+}
+.order-btn{
+	    float: right;
+    /* margin-left: 185px; */
+    border: 2px dashed #5fa30f;
+    padding: 1px;
+    border-radius: 3px;
+}
+.card-title-imp{
+	    font-size: 17px !important;
+    font-weight: 500 !important;
+    line-height: 1.3em !important;
+}
+.badge-primary-1{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    background-color: #5fa30f !important;	
+}
+.card-img-top:hover{
+	opacity:0.8;
+}
+
+.navText{
+	
+}
+.ps-head{
+      font-size: 3.2rem  !important;
+    font-family: serif ; 
+}
+.ps-head1{
+	 font-size: 1.8rem !important;
+}
+.owl-carousel .owl-item img {
+    width: auto !important;
+    }
+ .checkd {
+ 	color: orange !important;
+ } 
+
+  
+ .card-lg-pading2{
+ 	padding: 10px 15px !important ;
+ }
+ .ps-block--category-1 {
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #bfbfbf;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.ps-block--category-1 h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+#service11{
+
+    height: 170px;
+    margin: 70px 0; 
+    border: none !important;
+    background-image: url('assets/front/images/food/12.jpg'); 
+
+}
+
+.ps-block--site-features.ps-block--site-features-2 .ps-block__item {
+	border-right:none !important;
+}
+.txt-center{
+    border-left: 1px solid #ccc;
+    text-align: center;
+}
+.view-menu{
+    border: 2px dashed #5fa30f;
+    padding: 5px;
+    border-radius: 3px;
+    line-height: 3pc;
+}
+.sm-pading{
+    padding: 10px;
+}
+.sm-pading1{
+    padding: 10px;
+    margin-top: 20px;
+}
+.menLeft{
+        text-align: right;
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 16px;
+}
+@media (max-width: 767px) {
+  .ps-block--category-2e {
+    display:block;
+  }
+  .sm-pading-mob{
+    text-align: center;
+  }
+  .txt-center-mob{
+    border-top: 1px solid #ccc;
+    border-left: none;
+  }
+}

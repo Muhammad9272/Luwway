@@ -1,0 +1,21 @@
+.form-file{
+  width: 154px;
+    height: 182px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;}  
+.inputfile + label {
+cursor: pointer;
+}     
+
+.inputfile + label figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

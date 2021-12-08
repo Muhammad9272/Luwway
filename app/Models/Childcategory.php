@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Childcategory extends Model
+{
+    use \Znck\Eloquent\Traits\BelongsToThrough;
+    protected $fillable = ['subcategory_id','name','slug','tag','tag_color','mega_image','is_featured','image'];
+    public $timestamps = false;
+
+    public function subcategory()
+    {
+    	return $this->belongsTo('App\Models\Subcategory');
+    }
+    
+    //  public function category()
+    // {
+    //     return $this->belongsToThrough('App\Models\Category', 'App\Models\Subcategory');
+    // }
+
+
+
+
+
+    public function products()
+    {
+        return $this->hasMany('App\Models\Product');
+    }
+
+    public function setSlugAttribute($value)
+    {
+        $this->attributes['slug'] = str_replace(' ', '-', $value);
+    }
+
+    public function attributes() {
+        return $this->morphMany('App\Models\Attribute', 'attributable');
+    }
+}
